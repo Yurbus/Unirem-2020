@@ -266,7 +266,7 @@ ul.nav{
 .icon-knive {
 	font-family: 'Oswald';
     text-align: center;
-    width: 140px;
+    width: 160px;
 	margin: 27px;
 	background-color: #fff;
 	box-shadow: 1px 1px 8px #777;
@@ -280,11 +280,13 @@ ul.nav{
 	color: #000;
 	padding: 10px 0;
 }
-
+.icon-knive img {
+	width: 160px;
+}
 .sizes {
 	display: flex;
 	justify-content: flex-start;
-	padding-left: 115px;
+	padding-left: 65px;
 }
 .range-size p {
 	font-weight: 400;
@@ -378,3 +380,5 @@ ul.nav{
 	background-color: #fff;
 	color: #000;
 }
+
+

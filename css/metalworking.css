@@ -52,7 +52,7 @@ h2{
 	height: 50px;
 	padding: 10px 0;
 }
-.contact-info {
+.contact-info, .contact-info a {
 	display: flex;
 	color: #FCFF00;
 	padding: 0;

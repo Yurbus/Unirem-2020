@@ -1,12 +1,17 @@
 	/* sm */
+@media (max-width: 1024px) {
+	.banner h3 {
+		margin-top: 14vh;
+	}
+
+}
  @media (max-width: 991px) {
 	.banner h3 {
-	  font-size: 13px;
+	  font-size: 14px;
 	  margin-top: 120px;
 	}
 	.banner h1 {
-		margin-top: 30vh;
-	  font-size: 30px;
+		font-size: 30px;
 	}
 	.banner p {
 	  font-size: 15px;
@@ -36,10 +41,11 @@
 	}
 }
 /* xs */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.banner h3 {
 	  font-size: 12px;
-	  margin-top: 30px;
+	  margin-top: 18vh;
+
 	}
 	.banner h1 {
 	  font-size: 25px;
@@ -118,6 +124,18 @@
 	}
 	.contact-heading img {
 	  margin-bottom: 25px;
+	}
+}
+@media (max-width: 560px) {
+	.sizes {
+		padding-left: 10px;
+	}	
+	.icon-knive {
+		width: 140px;
+		margin: 20px;
+	}
+	.icon-knive img {
+		width: 140px;
 	}
 }
 /* XS Portrait */
